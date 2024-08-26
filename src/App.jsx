@@ -5,6 +5,7 @@ import Slider from "./componenets/Slider"
 import Categories from "./componenets/Categories"
 import Products from "./componenets/Products"
 import Newsletter from "./componenets/Newsletter"
+import Footer from "./componenets/Footer"
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Categories/>
       <Products/>
       <Newsletter/>
+      <Footer/>
     </div>
   )
 }
