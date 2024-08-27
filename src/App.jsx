@@ -3,7 +3,10 @@
 // import ProductList from "./componenets/page/ProductList"
 // import ProductMain from "./componenets/page/ProductMain"
 
-import Register from "./componenets/page/Register"
+import Login from "./componenets/page/Login"
+
+
+
 
 
 
@@ -13,7 +16,8 @@ const App = () => {
       {/* <Home/> */}
       {/* <ProductList/> */}
       {/* <ProductMain/> */}
-      <Register/>
+      {/* <Register/> */}
+      <Login/>
     </div>
   )
 }
