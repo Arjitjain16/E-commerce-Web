@@ -9,7 +9,7 @@ function Newsletter() {
         <h4 className="text-2xl font-thin">Get timely updated from your favorite update</h4>
         <div className="bg-slate-50 w-1/2 flex items-center justify-between border border-gray-200">
             <input type="text"  placeholder="Your email" className="border-none outline-none pl-6" style={{flex: '8'}} />   
-            <button  className="bg-gray-400 text-white py-2 flex-1"> <Send/></button>    
+            <button  className="bg-gray-400 text-white py-2" style={{flex : "3"}}> <Send/></button>    
         </div>
     </div>
   )

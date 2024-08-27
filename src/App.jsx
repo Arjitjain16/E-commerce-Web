@@ -3,7 +3,9 @@
 // import ProductList from "./componenets/page/ProductList"
 // import ProductMain from "./componenets/page/ProductMain"
 
-import Login from "./componenets/page/Login"
+import Cart from "./componenets/page/Cart"
+
+// import Login from "./componenets/page/Login"
 
 
 
@@ -17,7 +19,8 @@ const App = () => {
       {/* <ProductList/> */}
       {/* <ProductMain/> */}
       {/* <Register/> */}
-      <Login/>
+      {/* <Login/> */}
+      <Cart/>
     </div>
   )
 }

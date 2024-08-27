@@ -8,7 +8,7 @@ const Login = () => {
         backgroundRepeat: "no-repeat",
       }}>
 
-        <div className="bg-white to-black w-[24vw] h-[42vh] mt-40 p-5 shadow z-50 rounded-md">
+        <div className="bg-white to-black w-[24vw] h-[42.5vh] mt-40 p-5 shadow z-50 rounded-md">
             <h1 className="text-3xl mb-4">SIGN IN</h1>
             <form action="" >
                 <div className="w-full flex flex-col gap-5">
@@ -16,13 +16,13 @@ const Login = () => {
                     block w-full py-3 px-2.5 outline-none"/>
                     <input type="text" placeholder="Password" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded focus:ring-cyan-600 focus:border-cyan-600 
                     block w-full py-3  px-2.5 outline-none" />
-                    <div>
+                    <div className="mb-2">
                       <button className="px-10 py-2 bg-[#037B7A] text-white text-xl">Login</button>
                     </div>
                 </div>
-                <div className="flex flex-col">
-                    <a href="">DO NO REMEMBER THE PASSWORD?</a>
-                    <a href="">CREATE A NEW ACCOUNT</a>
+                <div className="flex flex-col gap-2">
+                    <a href="" className="underline">DO NO REMEMBER THE PASSWORD?</a>
+                    <a href="" className="underline">CREATE A NEW ACCOUNT</a>
                 </div>
             </form>
             <div>
