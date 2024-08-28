@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const CartSchema = new mongoose.Schema({
+const OrderSchema = new mongoose.Schema({
    UserId : {type : String, required:true},
    products :[
     {
@@ -8,10 +8,13 @@ const CartSchema = new mongoose.Schema({
         quantity : {type : Number, default :1 },
     },
    ],
+   amount : {type: Number, required:true},
+   address: {type: Object, required:true},
+   status :{type : String, default : "pending"}
     
 }, 
 {timestamps: true}
 )
 
 
-module.exports = mongoose.model("Cart", CartSchema)
+module.exports = mongoose.model("Order", OrderSchema)
