@@ -8,7 +8,7 @@ const Cart = () => {
     <div>
         <Navbar/>
         <Annoucement/>
-        <div className="flex flex-col m-6 gap-6">
+        <div className="flex flex-col m-6 gap-6 mb-10">
             <div className="flex items-center justify-center pt-5">
               <h1 className="text-4xl font-semibold">Your BAG</h1>
             </div>
@@ -20,27 +20,27 @@ const Cart = () => {
                 </div>
                 <button className="bg-black text-white px-4 py-2">CHECKOUT NOW</button>
             </div>
-            <div className="flex justify-between w-full">
+            <div className="flex justify-between w-full mt-7">
                 <div className="w-1/3 flex">
-                  <div className="w-[200px] h-[200px] flex items-center">
-                    <img src="public/pngwing.com (5).png" className="w-full h-full" alt="" />
+                  <div className="w-[200px] h-[200px]">
+                    <img src="public/pngwing.com (8).png" className="w-full h-full object-contain" alt="" />
                   </div>
-                  <div className="flex flex-col gap-4 justify-center">
-                    <h1><span className="font-bold">Product: </span>JESSI THUNDER DRESS</h1>
-                    <h1><span className="font-bold">ID: </span>8994994999</h1>
+                  <div className="flex flex-col gap-6 ">
+                    <h1 className="text-xl" ><span className="font-bold">Product: </span>JESSI THUNDER DRESS</h1>
+                    <h1 className="text-xl" ><span className="font-bold">ID: </span>8994994999</h1>
                     <div className="h-5 w-5 bg-black rounded-full"></div>
-                    <h1><span className="font-bold">Size: </span>38</h1>
+                    <h1 className="text-xl" ><span className="font-bold">Size: </span>38</h1>
                   </div>
                 </div>
-                <div className="w-1/3 flex flex-col items-center justify-center gap-4">
+                <div className="w-1/3 flex flex-col items-center  gap-4">
                   <div className="flex gap-2 items-center">
                     <Add/>
-                    <span className="text-2xl">2</span>
+                    <span className="text-3xl">2</span>
                     <Remove/>
                   </div>
-                  <h1 className="text-3xl">$ 30</h1>
+                  <h1 className="text-4xl">$ 30</h1>
                 </div>
-                <div className="bg-red-300 w-1/3 border border-gray-300 flex flex-col gap-5 p-3">
+                <div className="w-[32%] border border-gray-300 rounded-md flex flex-col gap-5 p-5">
                  <h1 className="text-4xl font-semibold">ORDER SUMMARY</h1>
                  <div className="flex justify-between">
                     <h1 className="text-xl">Subtotal</h1>

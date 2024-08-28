@@ -1,8 +1,8 @@
 
 const Login = () => {
   return (
-    <div className="h-screen w-screen flex items-center justify-center bg-no-repeat" style={{
-        background: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url(https://images.unsplash.com/photo-1622589971252-88e154474ae9?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
+    <div className="h-[100vh] w-[100vw] flex items-center justify-center" style={{
+        background: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2)), url(https://images.pexels.com/photos/7130035/pexels-photo-7130035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
