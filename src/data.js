@@ -26,17 +26,20 @@ export const SliderItem = [
     {
       image: "https://images.pexels.com/photos/3491940/pexels-photo-3491940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       title: "SHIRT STYLE!",
-      button: "Explore Now"
+      button: "Explore Now",
+      cat : "women"
     },
     {
       image: "https://images.pexels.com/photos/5444916/pexels-photo-5444916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       title: "LOUNGE WEAR",
-      button: "Explore Now"
+      button: "Explore Now",
+      cat : "shirts"
     },
     {
       image: "https://images.unsplash.com/photo-1657567685857-87e99fe4bcec?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "LIGHT JACKETS",
-      button: "Explore Now"
+      button: "Explore Now",
+      cat : "coat"
     }
   ];
 

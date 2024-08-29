@@ -8,7 +8,7 @@ const Register = () => {
         backgroundRepeat: "no-repeat",
       }}>
 
-        <div className="bg-white to-black w-[45vw] h-[40vh] mt-40 p-5 shadow z-50 rounded-md">
+        <div className="bg-white to-black w-[45vw] h-[44vh] mt-40 p-5 shadow z-50 rounded-md">
             <h1 className="text-3xl mb-4">CREATE AN ACCOUNT</h1>
             <form action="" className="flex flex-col gap-4">
                 <div className="w-full flex gap-2">
@@ -30,11 +30,13 @@ const Register = () => {
                     block w-full py-1.5  px-2.5 outline-none" />
                     
                 </div>
-                <button className="px-2 bg-slate-200 text-xl">CREATE</button>
-            </form>
-            <div>
-                <h1>By creating  an account I consent  to the processing of my personal data in accordance with the <span className="font-semibold">PRIVACY POLICY</span></h1>
                 
+            </form>
+            <div className="mt-3">
+                <h1 className="mb-2">By creating  an account I consent  to the processing of my personal data in accordance with the <span className="font-semibold">PRIVACY POLICY</span></h1>
+                <div >
+                   <button className="px-8 py-2 bg-[#016D6E] text-white text-xl">CREATE</button>
+                </div>
             </div>
         </div>
     </div>
